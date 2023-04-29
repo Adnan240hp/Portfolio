@@ -42,6 +42,6 @@ window.addEventListener("load", function () {
   loader.style.display = "none";
 });
 
-$.getJSON("https://api.countapi.xyz/hit/mdadnan.netlify.app/visits", function(response) {
+$.getJSON("https://api.countapi.xyz/hit/skogamingstudio.netlify.app/visits", function(response) {
   $("#visits").text(response.value);
 });

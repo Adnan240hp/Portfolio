@@ -238,57 +238,6 @@ header .navbar ul li a:hover {
   color: #fff;
 }
 
-.education .box-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 1rem 0;
-  padding-left: 3rem;
-}
-
-.education .box-container .box {
-  width: 27rem;
-  margin: 4rem 1rem;
-  padding-left: 4rem;
-  border-left: 0.2rem solid #fff;
-  position: relative;
-}
-
-.education .box-container .box span {
-  font-size: 1.3rem;
-  background: #222;
-  color: #fff;
-  border-radius: 5rem;
-  padding: 0.5rem 2.5rem;
-}
-
-.education .box-container .box h3 {
-  font-size: 2rem;
-  color: #fff;
-  padding-top: 1.5rem;
-}
-
-.education .box-container .box p {
-  font-size: 1.4rem;
-  color: #eee;
-  padding: 1rem 0;
-}
-
-.education .box-container .box i {
-  position: absolute;
-  top: -1.5rem;
-  left: -2.5rem;
-  height: 5rem;
-  width: 5rem;
-  border-radius: 50%;
-  line-height: 5rem;
-  text-align: center;
-  font-size: 2rem;
-  color: #fff;
-  background: var(--blue);
-}
-
 .portfolio .box-container {
   display: flex;
   align-items: center;
@@ -299,7 +248,7 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box {
   height: 20rem;
-  width: 26rem;
+  width: 40rem;
   border-radius: 1rem;
   margin: 2rem;
   overflow: hidden;
@@ -314,6 +263,10 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box:hover img {
   transform: scale(1.2);
+}
+
+.platforms img{
+  padding: 42px 42px 5px 42px;
 }
 
 .contact .row {
@@ -395,13 +348,34 @@ header .navbar ul li a:hover {
 }
 
 .footer {
-  font-size: 14px;
-  color: #eee;
-  padding: 12px;
-  width: 100%;
   background-color: #000;
+  color: #fff;
+  padding: 30px;
   text-align: center;
 }
+
+.social-media-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.2s;
+}
+
+.social-media-icons a:hover {
+  color: #1da1f2;
+}
+
+.social-media-icons a:focus {
+  outline: none;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
 
 /* media queries  */
 
